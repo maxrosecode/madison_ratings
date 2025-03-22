@@ -1,20 +1,156 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<meta charset="UTF-8">
-<title>Page Title</title>
-<meta name="viewport" content="width=device-width,initial-scale=1">
-<link rel="stylesheet" href="">
-<style>
-</style>
-<script src=""></script>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Madison Ratings - Home</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <nav style="width: 50%; margin: auto">
+      <ul style="display: flex; flex-direction: row; justify-content: center">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="restaurants/restaurant.html">Restaurants</a></li>
+        <li><a href="study/study.html">Study Spots</a></li>
+        <li><a href="bars/bar.html">Bars</a></li>
+        <li><a href="spots/spot.html">Hangout Spots</a></li>
+      </ul>
+    </nav>
 
+    <header>
+      <h1 style="color: #606c38; margin-bottom: 0px">
+        Welcome to Madison Ratings
+      </h1>
+      <h2 style="font-size: 1.2rem; color: #283618">
+        Your guide to the best places in Madison
+      </h2>
+    </header>
 
-	<!--- Code above this line will not be displayed on the browser --> 
+    <main>
+      <p
+        style="
+          width: 60%;
+          margin: auto;
+          line-height: 1.6rem;
+          background-color: #c99051;
+          color: whitesmoke;
+          padding: 0.7rem;
+          border-radius: 2rem;
+          text-align: center;
+        "
+      >
+        This website provides ratings for various establishments in Madison
+        including restaurants, study spots, bars, and hangout spots. For more
+        details, check out the
+        <a href="https://www.visitmadison.com" target="_blank"
+          >Madison Visitor Guide</a
+        >.
+      </p>
 
-	<body>
+      <section>
+        <div
+          class="flex-layout"
+          style="
+            gap: 2rem;
+            margin: auto;
+            width: fit-content;
+            align-items: center;
+          "
+        >
+          <p
+            style="
+              font-size: 1.2em;
+              color: #803954;
+              border: 1px solid black;
+              width: fit-content;
+              border-radius: 2rem;
+              padding: 0.7rem;
+            "
+          >
+            Overall Quality: 8/10
+          </p>
+          <p
+            style="
+              font-size: 1.2em;
+              color: #803954;
+              border: 1px solid black;
+              width: fit-content;
+              border-radius: 2rem;
+              padding: 0.7rem;
+            "
+          >
+            Overall Ambiance: 7/10
+          </p>
+          <p
+            style="
+              font-size: 1.2em;
+              color: #803954;
+              border: 1px solid black;
+              width: fit-content;
+              border-radius: 2rem;
+              padding: 0.7rem;
+            "
+          >
+            Overall Service: 8/10
+          </p>
+        </div>
+      </section>
+      <section
+        style="
+          width: 90%;
+          margin: auto;
+          justify-content: center;
+          display: flex;
+          flex-direction: column;
+        "
+      >
+        <h1
+          style="
+            font-weight: bold;
+            color: #606c38;
+            display: flex;
+            justify-content: center;
+            font-size: 1.7rem;
+          "
+        >
+          Gallery
+        </h1>
+        <figure style="display: flex; justify-content: center; flex-wrap: wrap">
+          <img
+            src="cityscape.jpg"
+            alt="Madison Cityscape"
+            style="width: 300px; height: auto"
+          />
+          <img
+            src="spots/nick.jpg"
+            alt="Madison Cityscape"
+            style="width: 300px; height: auto"
+          />
+          <img
+            src="study/memu.jpg"
+            alt="Madison Cityscape"
+            style="width: 300px; height: auto"
+          />
+          <img
+            src="restaurants/farmersmarket.jpg"
+            alt="Madison Cityscape"
+            style="width: 300px; height: auto"
+          />
+          <img
+            src="spots/unionsouth.jpg"
+            alt="Madison Cityscape"
+            style="width: 300px; height: auto"
+          />
+          <img
+            src="madison.jpg"
+            alt="Madison Cityscape"
+            style="width: 300px; height: auto"
+          />
+        </figure>
+      </section>
+    </main>
 
-		<p> Hello world! My name is Max</p>
-
-	</body>
-
+    <footer>
+      <p>&copy; 2025 Madison Ratings</p>
+    </footer>
+  </body>
 </html>

@@ -1,0 +1,43 @@
+/* Global Styles */
+body {
+  background-color: #fefae0;
+  font-family: Arial, sans-serif;
+}
+
+/* Navigation */
+nav ul {
+  list-style-type: none;
+  padding: 1rem;
+  border-radius: 1rem;
+  background-color: #dda15e;
+  margin-bottom: 20px;
+  display: flex;
+  align-items:center;
+  justify-items:center;
+}
+
+nav ul li {
+  margin-right: 10px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+/* Header and Footer */
+header, footer {
+  text-align: center;
+}
+
+/* Typography: Headings use a serif font with fallback */
+h1, h2, h3 {
+  font-family: 'Times New Roman', Times, serif, serif;
+}
+
+/* Default grid layout (if needed elsewhere) */
+.flex-layout {
+  display: flex;
+  justify-content: center;
+}
