@@ -1,1 +1,1 @@
-# maxrosecode.github.io
+# maxrosecode.github.io/madison_ratings/
